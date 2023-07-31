@@ -23,7 +23,12 @@ const config: HardhatUserConfig = {
             },
             blockGasLimit: 30000000,
         },
-        // ganache: {},
+        ganache: {
+            url: 'http://127.0.0.1:8545',
+            chainId: 1337,
+            accounts: require('./accounts.json').privateKey,
+            blockGasLimit: 30000000,
+        },
         // sepolia: {},
     },
 };
