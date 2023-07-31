@@ -1,0 +1,25 @@
+{
+    "singleQuote": true,
+    "trailingComma": "all",
+    "semi": true,
+    "printWidth": 80,
+    "tabWidth": 4,
+    "endOfLine": "auto",
+    "arrowParens": "always",
+    "bracketSpacing": true,
+    "overrides": [
+        {
+            "files": "*.sol",
+            "options": {
+                "singleQuote": true,
+                "trailingComma": "all",
+                "semi": true,
+                "printWidth": 80,
+                "tabWidth": 4,
+                "endOfLine": "auto",
+                "arrowParens": "always",
+                "bracketSpacing": true
+            }
+        }
+    ]
+}
